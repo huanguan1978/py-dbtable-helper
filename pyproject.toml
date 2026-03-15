@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py_dbtable_helper"
+version = "1.0.1"
+authors = [
+  { name="crown.hg", email="crown.hg@gmail.com" },
+]
+description = "An ultra-lightweight, dependency-free Python SQL query builder for secure database operations."
+readme = "README.md"
+requires-python = ">=3.10"
+license-files = ["LICENSE"]
+keywords = ["sql", "database", "query-builder", "sql-injection-prevention", "sqlite3", "psycopg2", "pymysql", "pyodbc", "oracledb"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",    
+    "Topic :: Database",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.urls]
+Homepage = "https://github.com/huanguan1978/py-dbtable-helper"
+Repository = "https://github.com/huanguan1978/py-dbtable-helper"
+Changelog = "https://github.com/huanguan1978/py-dbtable-helper/blob/main/CHANGELOG.md"
+Funding = "https://github.com/sponsors/huanguan1978"
+
+[tool.setuptools.packages.find]
+where = ["src"]
